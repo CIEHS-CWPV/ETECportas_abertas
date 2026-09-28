@@ -24,7 +24,7 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 100px;
-  height:100%;
+  min-height: fit-content;
 }
 
 body {
@@ -35,11 +35,17 @@ body {
   min-height: 100vh;
   -ms-overflow-style: none;
   scrollbar-width: none;
-  height:100%;
+  height: 100%;
+
 }
 
 body::-webkit-scrollbar {
   display: none;
+}
+
+#esp {
+  margin-top: 5%;
+  margin-bottom: 7%;
 }
 
 /* --- TÍTULOS GERAIS --- */
@@ -92,7 +98,9 @@ hr {
 }
 
 /* --- CONTAINERS DAS SEÇÕES --- */
-#gestor, #criador, #gestor-guia {
+#gestor,
+#criador,
+#gestor-guia {
   margin-top: 50px;
   margin-bottom: 40px;
   margin-left: auto;
@@ -107,10 +115,72 @@ hr {
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
 
-#gestor h1, #criador h1, #gestor-guia h1 {
+#gestor h1,
+#criador h1,
+#gestor-guia h1 {
   text-align: center;
   margin-bottom: 25px;
 }
+
+.devs {
+  background-color: white;
+  min-width: fit-content;
+  max-width: max-content;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+}
+
+.devs p {
+
+  color: #000;
+}
+
+.devs h1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.prof {
+  background-color: white;
+  min-width: fit-content;
+  max-width: max-content;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.prof h1 {
+  margin-top: 2%;
+}
+
+.professor {
+  margin-top: 2%;
+}
+
+.professor p {
+  color: #000;
+}
+
+.bibliografia{
+  background-color: white;
+  min-width: fit-content;
+  max-width: max-content;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  text-align: center;
+
+}
+
+
 
 /* --- MENU LATERAL (NAV-PILLS / LIST GROUP) --- */
 .nav-pills .nav-link {
@@ -190,7 +260,8 @@ hr {
 }
 
 /* --- LISTAS INTERNAS DO CONTEÚDO --- */
-.scrollspy-box ul, .scrollspy-box ol {
+.scrollspy-box ul,
+.scrollspy-box ol {
   padding-left: 20px;
   margin-top: 10px;
   margin-bottom: 15px;
@@ -223,11 +294,16 @@ textarea:focus {
 /* --- RODAPÉ --- */
 footer {
   position: fixed;
-  bottom:0;
+  bottom: 0;
   width: 100%;
   margin-top: 100%;
   background: #090d16 !important;
   border-top: 1px solid var(--border-color);
+  display: flex;
+}
+
+footer a {
+  margin-left: auto;
 }
 
 .footer-brand {
