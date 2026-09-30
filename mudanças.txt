@@ -1,0 +1,22 @@
+MUDAR AS BANDEIRAS
+basicamente adicionar as duas bandeiras no canto, bandeira brasileira para portugues e bandeira americana para ingles
+
+ADICIONAR UMA PAGINA PARA ATUAÇÂO
+no menu ela precisa de mais uma opção escrito "atuação" e colocar onde trabalha e o salario dele alem de tirar essas opções do sobre(depois do sobre)
+
+ALTERAR INDEX
+na parte de cima esta escrito criador de conteudo 2x oque fica redundante, além de que um conselho dela é adicionar um carrosel na pagina inicial
+
+RECHEAR COM IMAGENS
+colocar mais imagens e coisas do tipo, tem muito texto
+
+VERIFICAR CONTATO
+nome completo
+email
+tele
+comentario nao validar e travar text area
+
+MUDAR NOMES SOBRE
+Alguns dos nomes tem que ser mudados, tipo "visão geral" e coisas do tipo
+
+
